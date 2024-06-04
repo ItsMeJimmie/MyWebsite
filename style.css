@@ -10,11 +10,13 @@ content */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: gray;
+    background-color: #E29578;
+    padding: 30px;
 }
 
 #name {
     flex: 1;
+    margin-left: 50px;
 }
 
 .container{
@@ -23,10 +25,44 @@ content */
     flex-wrap: nowrap;
     gap: 10px;
     align-items: center;
+    margin-right: 10px;
    
 }
 
-#homeButton {
-    
+.container button {
+    background-color: #E29578;
+    border-color: #E29578;
+    border: 0;
+    padding: 6px;
 }
 
+.container button:hover {
+    background-color: #FFDDD2;
+    transition: 0.65s;
+}
+
+.heroHeader {
+    display: flex;
+}
+
+.hero {
+    background-color: #FFDDD2;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+#HOME {
+}
+
+.right {
+    margin-left: 20px;
+}
+#heroImage {
+    height: 500px;
+    width: 500px;
+}
